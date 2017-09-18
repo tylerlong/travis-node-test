@@ -1,0 +1,17 @@
+{
+  "name": "travis-node-test",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --coverage --no-cache --runInBand"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "jest": "^21.1.0",
+    "standard": "^10.0.3"
+  },
+  "dependencies": {
+    "ringcentral": "^3.1.3",
+    "ringcentral-client": "^1.0.0-rc1"
+  }
+}
